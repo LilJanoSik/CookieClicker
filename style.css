@@ -1,0 +1,288 @@
+#sectionLeft {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 30%;
+    bottom: 0px;
+    min-width: 100px;
+    overflow: hidden;
+    background-color: lightblue;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-image-source: url("img/panelVertical.jpg");
+    border-image-slice: 100;
+    float: left;
+    background-image: url("img/bgBlue.jpg");
+}
+
+#rain {
+    background-image: url("img/cookierain.gif");
+    background-position: top;
+    position: absolute;
+    left: 0px;
+    top: -18%;
+    width: 100%;
+    bottom: 35%;
+    min-width: 100px;
+    overflow: hidden;
+    opacity: 0.6;
+    background-repeat: repeat-y;
+}
+
+#milk {
+    background-image: url("img/milkWave.gif");
+
+    background-position: bottom;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+    width: 100%;
+    bottom: 0px;
+    min-width: 100px;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    z-index: 5000;
+}
+
+#middle {
+    position: absolute;
+    left: 32%;
+    top: 0%;
+    right: 0%;
+    bottom: 0px;
+    min-width: 100px;
+    overflow: hidden;
+    width: 36%;
+    background-color: #add8e6;
+    z-index: -999999;
+    text-align: center;
+    justify-content: center;
+    background-image: url("img/bgBlue.jpg");
+
+}
+
+#shop {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 80px;
+    width: 30%;
+    overflow: hidden;
+    background-color: #add8e6;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-image-source: url("img/panelVertical.jpg");
+    border-image-slice: 100;
+    float: right;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+#cookieCenter {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+
+#Cookie {
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    left: -128px;
+    top: -128px;
+    background: url(img/cookie.png);
+    cursor: pointer;
+    z-index: 10000;
+    border-radius: 128px;
+}
+
+#cookies {
+    position: absolute;
+    left: 0px;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+    background: #000;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 0px;
+    pointer-events: none;
+}
+
+.text {
+    font-size: 28px;
+    text-shadow: 0px 0px 4px #000;
+    color: #fff;
+}
+
+.shine {
+    z-index: -1;
+    position: absolute;
+    left: -100px;
+    top: -95px;
+    opacity: 0.2;
+    animation: spin 10s linear infinite;
+
+}
+
+#Shine {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: -175px;
+    top: -175px;
+    background-image: url(img/shine.png);
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 128px;
+    opacity: 0.2;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.kontent {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 157px;
+    background-color: #add8e6;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.kontent1 {
+    position: relative;
+    width: 100%;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.kontent2 {
+    position: relative;
+    width: 100%;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.kontent3 {
+    position: relative;
+    width: 100%;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.kontent4 {
+    position: relative;
+    width: 100%;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    text-align: center;
+    background-image: url("img/bgBlue.jpg");
+}
+
+
+.content {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-color: #add8e6;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.content1 {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.content2 {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.content3 {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.content4 {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-color: #add8e6;
+    border-bottom: 20px solid transparent;
+    border-image-source: url("img/panelhorizontal.jpg");
+    border-image-slice: 100;
+    background-image: url("img/bgBlue.jpg");
+}
+
+.upgrade {
+    background-color: #44c767;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.upgrade:hover {
+    background-color: #5cbf2a;
+}
+
+.upgrade:active {
+    position: relative;
+    top: 1px;
+}
+
